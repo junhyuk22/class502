@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>펫병원 24시</title>
 <script>
+
 	function loginCheck(flag){
 		if(flag==1){
 			document.loginC.action="logincheck.jsp";
@@ -20,6 +21,7 @@
 		document.loginC.submit();
 		
 	}
+	
 	function sessionTest(){
 		if(confirm("이전 접속이 종료되지 않았습니다. 같은 ID로 재접속 하시겠습니까? ")){
 			response.sendRedirect("Main.jsp");
