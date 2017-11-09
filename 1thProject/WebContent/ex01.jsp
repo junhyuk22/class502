@@ -14,9 +14,9 @@
 	Connection conn = DriverManager.getConnection(url,user,pass);
 	Statement pstmt = conn.createStatement();
 	ResultSet rs = pstmt.executeQuery(sql);
-	
-
 %>
+
+
 <!DOCTYPE html>
 <html>
 <head>
